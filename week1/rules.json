@@ -1,0 +1,23 @@
+[
+    {
+      "if": ["fever", "cough"],
+      "then": "You might have the flu."
+    },
+    {
+      "if": ["fever", "rash"],
+      "then": "You might have measles."
+    },
+    {
+      "if": ["headache", "nausea"],
+      "then": "You might have a migraine."
+    },
+    {
+      "if": ["chest pain", "shortness of breath"],
+      "then": "Seek medical help: possible heart issue."
+    },
+    {
+      "if": ["fatigue", "weight loss"],
+      "then": "You might have a thyroid problem."
+    }
+  ]
+  
